@@ -51,7 +51,7 @@ def reminder():
             lines = f.readlines()
             if len(lines) > 0 and chat_id is not None:  # если есть user_id и сообщение
                 text = lines[0]
-                token = os.environ['TOKEN']
+                token = os.environ['7660084795:AAHZlWBPxvB_VEXNsQRP9TeGyYVXnLe9wSE']
                 requests.get(r"https://api.telegram.org/bot"
                              + token
                              + r"/sendMessage?chat_id=" + chat_id
