@@ -29,7 +29,7 @@ def get_last_update(now, last):
         return "Более дня назад"
 
 
-bot = telebot.TeleBot(os.environ['TOKEN'])  # Создаем бот
+bot = telebot.TeleBot(os.environ['7660084795:AAHZlWBPxvB_VEXNsQRP9TeGyYVXnLe9wSE'])  # Создаем бот
 
 # Создание клавиатур, для удобной коммуникации с пользователем
 start_keyboard = telebot.types.InlineKeyboardMarkup()
